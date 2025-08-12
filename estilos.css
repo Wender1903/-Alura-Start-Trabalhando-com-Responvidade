@@ -219,7 +219,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 7rem 0;
-
   @media (max-width:768px) {
     flex-direction: row-reverse;
     padding: var(--padding-xl) 0;
@@ -282,6 +281,11 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: var(--gap-2xl);
+
+  @media (max-width:768px){
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .sobre-nos__beneficios--card {
